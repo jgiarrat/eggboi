@@ -1,2 +1,0 @@
-# eggboi
-egg_game
