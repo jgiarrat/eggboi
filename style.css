@@ -1,0 +1,232 @@
+body {
+	background-color: black;
+	font-family: 'Darker Grotesque', sans-serif;
+
+	color: white;
+
+}
+
+#finalText {
+	position: absolute;
+	text-align: center;
+	z-index: 10;
+	font-weight: bold;
+	font-size: 28px;
+	margin-top: 170px;
+	margin-left: 121px;
+	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.egg {
+
+display: block;
+margin: 0 auto;
+
+	
+}
+	
+
+#end {
+	text-align: center;
+}
+
+
+
+#intro {
+	text-align: center;
+	font-size: 70px;
+	transition: 0s;
+	text-transform: uppercase;
+	cursor: pointer;
+}
+
+.white {
+	background-color: white;
+}
+
+h1 {
+	font-family: 'Raleway', sans-serif;
+	font-weight: normal;
+}
+
+p {
+	font-size: 20px;
+	
+}
+
+#wrapper {
+	display: grid;
+	background-color: white;
+	grid-gap: 20px;
+	grid-template-columns: 1fr 2fr 1fr;
+	background-color: black;
+	width: 100%;
+	transition: all .7s linear;
+
+}
+
+#main, .dick, #ankle, .brain {
+	background-color: black;
+}
+
+
+/* Main */ 
+
+#main {
+	color: white;
+	text-align: center;
+	place-self: center;
+	justify-items: center;
+	
+
+}
+
+h1:hover {
+	color: grey;
+}
+
+#e1, #e2, #e3 {
+	text-align: center;
+	
+}
+
+#e1 p , #e2 p , #e3 p {
+	font-size: 30px;
+	
+}
+
+
+
+.body {
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	width: 40rem;
+}
+
+/* Body Boxes */
+
+#head {
+	position: absolute;
+	width: 70px;
+	height: 70px;
+	cursor: pointer;
+	margin-top: 202px;
+	margin-left: 283px;
+	transition: all .5s;
+
+}
+
+#peen {
+	
+	position: absolute;
+	width: 70px;
+	height: 70px;
+	margin-left: 283px;
+	margin-top: 402px;
+	cursor: pointer;
+	transition: all .5s;
+}
+
+#toe {
+	
+	position: absolute;
+	width: 70px;
+	height: 70px;
+	margin-left: 283px;
+	margin-top: 589px;
+	cursor: pointer;
+	transition: all .5s;
+}
+
+#toe:hover, #head:hover, #peen:hover {
+	transform: scale(1.04);
+
+}
+
+
+
+/* brain */
+
+#brain {
+	background-color: black;
+	color: white;
+	text-align: center;
+	
+
+	
+
+}
+
+
+/* ANKLE 1 */
+
+#ankle {
+	text-align: center;
+	background-color: black;
+}
+
+.ank {
+	height: 30rem;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+
+
+/* Dick */
+
+#dick {
+	text-align: center;
+	background-color: black;
+}
+
+.di {
+	height: 30rem;
+}
+
+/* Make Invisible and Make Visible and Make Glitch */
+
+.hidden {
+	display: none;
+}
+
+.vis {
+	grid-column-start: 2;
+	transition: all 1s linear;
+
+
+}
+
+.notglitch {
+	border: 2px solid white;
+}
+
+.glitch {
+	background-image: url(200.gif);
+	border-radius: 100px;
+	transition: all 3s;
+	border: 0px;
+	
+
+}
+
+
+
+.back:hover {
+	color: grey;
+	cursor: pointer;
+}
+
+
+
+/* animation control */
+
+
+
+
+
+.visuallyhidden {
+  opacity: 0;
+}
